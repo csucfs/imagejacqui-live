@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>ImageJacqui</title>
+    
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    
+        <script type="text/javascript" src="lib/js/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript">
+            var sequence = [1,6,4,5,8,2,7,3];
+            var counter = -1;
+            function slideSwitch(target) {
+                var $active = $(target+' img.active');
+                if ( $active.length == 0 ) $active = $(target+' img:last');
+                var $next = $active.next().length ? $active.next()
+                : $(target+' img:first');
+                $active.addClass('last-active');
+                $next.css({opacity: 0.0})
+                .addClass('active')
+                .animate({opacity: 1.0}, 1000, function() {
+                $active.removeClass('active last-active');
+                });
+            }
+            function chooseFromArray() {
+                counter++;
+                if (counter > sequence.length) {
+                    counter = 0;
+                }
+                return sequence[counter];
+            }
+            function slideSingular () {
+                var nextindex = chooseFromArray();
+                slideSwitch('#slideshow' + nextindex);
+            }
+            $(function() {
+                setInterval("slideSingular()", 2000 );
+            });
+        </script>
+    
+        <style type="text/css">
+        div.slideshowDiv {
+        position:relative;
+        height:150px;
+        }
+        div.slideshowDiv IMG {
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:8;
+        opacity:0.0;
+        }
+        div.slideshowDiv IMG.active {
+        z-index:10;
+        opacity:1.0;
+        }
+        div.slideshowDiv IMG.last-active {
+        z-index:9;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="middleContent">
+        <div class="titleBar">
+            <div class="menuItems"><a href="howToPurchase.html">How to Purchase</a>&nbsp;|&nbsp;<a href="aboutMe.html">About Jacqui</a></div>
+            <h1>ImageJacqui: Galleries</h1>
+            <p>These galleries profile Jacqui’s personal photographs that she uses for talks and presentations as well as the production of greeting cards, mounted and framed pictures, and laminates.  They are all available to buy in any format, although the Jane Austen and Basingstoke galleries are intended more for general interest and information.</p>
+            <p><i>Please click on a gallery to enter it</i></p>
+        </div>
+        <div class="allSlideshows">
+            <div class="outerSlideShowDiv" onclick="window.location = 'albums/generalphotos.xml';">
+                <div id="slideshow1" class="slideshowDiv">
+                    <img src="images/medium/2010120.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2010091.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2010101.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2010133.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    General
+                </div>
+            </div>
+            <div class="outerSlideShowDiv" onclick="window.location = 'albums/birdsphotos.xml';">
+                <div id="slideshow2" class="slideshowDiv">
+                    <img src="images/medium/2010006.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2010009.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2010015.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2010003.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    Birds
+                </div>
+            </div>
+            <div class="outerSlideShowDiv" onclick="window.location = 'albums/ionaphotos.xml';">
+                <div id="slideshow3" class="slideshowDiv">
+                    <img src="images/medium/2010038.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2010048.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2010037.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2010032.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    Iona
+                </div>
+            </div>
+            <div class="outerSlideShowDiv" onclick="window.location = 'albums/janephotos.xml';">
+                <div id="slideshow4" class="slideshowDiv">
+                    <img src="images/medium/2010152.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2010166.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2010170.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2010176.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    Jane Austen
+                </div>
+            </div>
+        </div>
+        <div class="allSlideshows">
+            <div class="outerSlideShowDiv" onclick="window.location = 'albums/basingstokephotos.xml';">
+                <div id="slideshow5" class="slideshowDiv">
+                    <img src="images/medium/2010184.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2010190.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2010180.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2010179.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    Basingstoke
+                </div>
+            </div>
+            <div class="outerSlideShowDiv" onclick="window.location = 'albums/norfolkphotos.xml';">
+                <div id="slideshow6" class="slideshowDiv">
+                    <img src="images/medium/2010250.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2010253.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2010254.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2010255.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    Norfolk
+                </div>
+            </div>
+            <div class="outerSlideShowDiv" onclick="window.location = 'albums/wymondhamphotos.xml';">
+                <div id="slideshow7" class="slideshowDiv">
+                    <img src="images/medium/2010258.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2010268.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2010262.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2010261.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    Wymondham
+                </div>
+            </div>
+                        <div class="outerSlideShowDiv" onclick="window.location = 'albums/newphotos.xml';">
+                <div id="slideshow8" class="slideshowDiv">
+                    <img src="images/medium/2011004.jpg" alt="Slideshow Image 1" class="active" />
+                    <img src="images/medium/2011007.jpg" alt="Slideshow Image 2" />
+                    <img src="images/medium/2011009.jpg" alt="Slideshow Image 3" />
+                    <img src="images/medium/2011005.jpg" alt="Slideshow Image 5" />
+                </div>
+                <div class="galleryTitle">
+                    <center>
+                    New additions
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

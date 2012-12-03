@@ -1,0 +1,72 @@
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    min-width: 800px;
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div {
+    /*border: 1px solid black*/
+}
+
+div.middleContent {
+    background-color: white;
+    width: 950px;
+    height: 755px;
+    margin: 0;
+    text-align: center;
+    border: 2px solid gray;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+div.allSlideshows {
+    text-align: center;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    width: 698;
+}
+
+div.titleBar {
+    margin: 0;
+}
+
+div.slideshowDiv {
+    padding: 0;
+    margin: 10px;
+    width: 150px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.galleryTitle {
+    width: 150px;
+    font-size: 14pt;
+    height: 47px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.outerSlideShowDiv {
+    width: 170px;
+    float: left;
+}
+
+div.menuItems {
+    font-size: 11pt;
+    text-align: right;
+}
