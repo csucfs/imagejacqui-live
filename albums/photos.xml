@@ -1,81 +1,336 @@
 ﻿<?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="indexView.xsl"?>
 <photos>
+    <photo id="2012020">
+    <caption>A zebra or two</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012021">
+    <caption>Crane and chick</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012022">
+    <caption>Derbyshire walk</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012023">
+    <caption>Dove love</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012024">
+    <caption>Giraffe</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012025">
+    <caption>Gulls on the march</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012026">
+    <caption>Help!</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012027">
+    <caption>Heron fishing</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012028">
+    <caption>Lindisfarne causeway</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012029">
+    <caption>Minsmere</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012030">
+    <caption>Monkey</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012031">
+    <caption>Otter</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012032">
+    <caption>Parent and child</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012033">
+    <caption>Pleinmont</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012034">
+    <caption>Seal it with a look</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012035">
+    <caption>The Norfolk coast</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012036">
+    <caption>Thistles at dusk</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012037">
+    <caption>Travelling the Thames</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012038">
+    <caption>Trio of trees</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012039">
+    <caption>Water lillies</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012040">
+    <caption>Yellow flower</caption>
+    <albums>
+      <album name="General"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+    <photo id="2012001">
+    <caption>Beach at Holme</caption>
+    <albums>
+      <album name="Norfolk"/>
+        <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012002">
+    <caption>Blakeney Nature Reserve</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012003">
+    <caption>Brancaster Staithe</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012004">
+    <caption>Burnham Thorpe birthplace of Nelson</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012005">
+    <caption>By the river in Norwich</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012006">
+    <caption>Cley Windmill</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012007">
+    <caption>Cliffs at Hunstanton</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012008">
+    <caption>Cromer Beach</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012009">
+    <caption>Cromer Pier</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012010">
+    <caption>Dad's Army in Thetford</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012011">
+    <caption>Horsey Broad</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012013">
+    <caption>Hunstanton Lighthouse</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012014">
+    <caption>North Norfolk Dunes</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012016">
+    <caption>River Ouse in Thetford</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012017">
+    <caption>Scene in Thetford</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012018">
+    <caption>St Benet's Abbey</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
+<photo id="2012019">
+    <caption>Water Lily Pond at Pensthorpe</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
     <photo id="2011001">
     <caption>Bearded tit at Pensthorpe</caption>
     <albums>
       <album name="Birds"/>
-      <album name="New"/>
     </albums>
   </photo>
   <photo id="2011003">
     <caption>Dunnock in mid-Norfolk</caption>
     <albums>
       <album name="Birds"/>
-      <album name="New"/>
     </albums>
   </photo>
   <photo id="2011005">
     <caption>Norfolk greenfinch</caption>
     <albums>
       <album name="Birds"/>
-      <album name="New"/>
     </albums>
   </photo>
   <photo id="2011006">
     <caption>Ruff in Spring plumage at Pensthorpe</caption>
     <albums>
       <album name="Birds"/>
-      <album name="New"/>
     </albums>
   </photo>
   <photo id="2011007">
     <caption>Ruff 2</caption>
     <albums>
       <album name="Birds"/>
-      <album name="New"/>
     </albums>
   </photo>
     <photo id="2011004">
     <caption>Konik ponies</caption>
     <albums>
       <album name="General"/>
-      <album name="New"/>
     </albums>
   </photo>
     <photo id="2011002">
     <caption>Damgate Street</caption>
     <albums>
       <album name="Wymondham"/>
-      <album name="New"/>
     </albums>
   </photo>
 <photo id="2011008">
     <caption>Fairland Street</caption>
     <albums>
       <album name="Wymondham"/>
-      <album name="New"/>
     </albums>
   </photo>
 <photo id="2011009">
     <caption>The Green Dragon</caption>
     <albums>
       <album name="Wymondham"/>
-      <album name="New"/>
     </albums>
   </photo>
 <photo id="2011010">
     <caption>Town Green Memorial</caption>
     <albums>
       <album name="Wymondham"/>
-      <album name="New"/>
     </albums>
   </photo>
 <photo id="2011011">
     <caption>Town sign</caption>
     <albums>
       <album name="Wymondham"/>
-      <album name="New"/>
     </albums>
   </photo>
   <photo id="2010001">
@@ -1608,6 +1863,13 @@
       <album name="Norfolk"/>
     </albums>
   </photo>
+<photo id="2012015">
+    <caption>Norwich Cathedral 2</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
+    </albums>
+  </photo>
 <photo id="2010255">
     <caption>Ranworth Broad</caption>
     <albums>
@@ -1642,6 +1904,13 @@
     <caption>Horsey Mill 2</caption>
     <albums>
       <album name="Norfolk"/>
+    </albums>
+  </photo>
+<photo id="2012012">
+    <caption>Horsey Mill 3</caption>
+    <albums>
+      <album name="Norfolk"/>
+            <album name="New"/>
     </albums>
   </photo>
 <photo id="2010257">

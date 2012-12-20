@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="albumView.xsl"
         ?><album name="Norfolk">
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <photo id="2012001"><caption>Beach at Holme</caption></photo>
+<photo id="2012002"><caption>Blakeney Nature Reserve</caption></photo>
+<photo id="2012003"><caption>Brancaster Staithe</caption></photo>
+<photo id="2012004"><caption>Burnham Thorpe birthplace of Nelson</caption></photo>
+<photo id="2012005"><caption>By the river in Norwich</caption></photo>
+<photo id="2012006"><caption>Cley Windmill</caption></photo>
+<photo id="2012007"><caption>Cliffs at Hunstanton</caption></photo>
+<photo id="2012008"><caption>Cromer Beach</caption></photo>
+<photo id="2012009"><caption>Cromer Pier</caption></photo>
+<photo id="2012010"><caption>Dad's Army in Thetford</caption></photo>
+<photo id="2012011"><caption>Horsey Broad</caption></photo>
+<photo id="2012013"><caption>Hunstanton Lighthouse</caption></photo>
+<photo id="2012014"><caption>North Norfolk Dunes</caption></photo>
+<photo id="2012016"><caption>River Ouse in Thetford</caption></photo>
+<photo id="2012017"><caption>Scene in Thetford</caption></photo>
+<photo id="2012018"><caption>St Benet's Abbey</caption></photo>
+<photo id="2012019"><caption>Water Lily Pond at Pensthorpe</caption></photo>
+    
   
   
   
@@ -266,12 +304,14 @@
 <photo id="2010252"><caption>Norfolk Snow Scene</caption></photo>
 <photo id="2010253"><caption>Norwich Castle</caption></photo>
 <photo id="2011014"><caption>Norwich Cathedral</caption></photo>
+<photo id="2012015"><caption>Norwich Cathedral 2</caption></photo>
 <photo id="2010255"><caption>Ranworth Broad</caption></photo>
 <photo id="2010256"><caption>Site of Mother Julian's Cell</caption></photo>
 <photo id="2010264"><caption>Norfolk Trees</caption></photo>
 <photo id="2010265"><caption>Horning</caption></photo>
 <photo id="2011012"><caption>Horsey Mill 1</caption></photo>
 <photo id="2011013"><caption>Horsey Mill 2</caption></photo>
+<photo id="2012012"><caption>Horsey Mill 3</caption></photo>
 
 
 
